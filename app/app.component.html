@@ -1,0 +1,5 @@
+<div>
+  <h1>Parent Child Interaction Example</h1>
+    <app-childcomponent [val]="" (value11Change)="printName($event)"></app-childcomponent>
+    <p>Your Name is: {{this.defmsg | uppercase}}</p>
+</div>
